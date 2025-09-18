@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 13: Statistics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <img src="https://copilot.microsoft.com/th/id/BCO.c46b5c8d-b20e-4d0d-bb65-8523ec478036.png" alt="Back" />
+  </a>
+
+  <div class="chapter-header" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Histogram.svg/512px-Histogram.svg.png');">
+    <h1>Chapter 13: Statistics – Formula Sheet</h1>
+  </div>
+
+  <div class="formula-box">
+    <strong>Mean (Average):</strong>
+    \( \bar{x} = \frac{\sum x_i}{n} \), where \( x_i \) are observations and \( n \) is the number of observations
+  </div>
+
+  <div class="formula-box">
+    <strong>Mean of Grouped Data:</strong>
+    \( \bar{x} = \frac{\sum f_i x_i}{\sum f_i} \), where \( f_i \) is frequency and \( x_i \) is mid-point
+  </div>
+
+  <div class="formula-box">
+    <strong>Median (Grouped Data):</strong>
+    \( \text{Median} = l + \left( \frac{\frac{n}{2} - F}{f} \right) \cdot h \)
+    <br>Where:
+    <ul>
+      <li>\( l \) = lower boundary of median class</li>
+      <li>\( F \) = cumulative frequency before median class</li>
+      <li>\( f \) = frequency of median class</li>
+      <li>\( h \) = class width</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Mode (Grouped Data):</strong>
+    \( \text{Mode} = l + \left( \frac{f_1 - f_0}{2f_1 - f_0 - f_2} \right) \cdot h \)
+    <br>Where:
+    <ul>
+      <li>\( l \) = lower boundary of modal class</li>
+      <li>\( f_1 \) = frequency of modal class</li>
+      <li>\( f_0 \) = frequency before modal class</li>
+      <li>\( f_2 \) = frequency after modal class</li>
+      <li>\( h \) = class width</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Variance:</strong>
+    \( \sigma^2 = \frac{\sum (x_i - \bar{x})^2}{n} \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Standard Deviation:</strong>
+    \( \sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n}} \)
+  </div>
+</body>
+</html>

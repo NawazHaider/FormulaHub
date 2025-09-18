@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 8: Sequences & Series</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <img src="https://copilot.microsoft.com/th/id/BCO.c46b5c8d-b20e-4d0d-bb65-8523ec478036.png" alt="Back" />
+  </a>
+
+  <div class="chapter-header">
+    <h1>Chapter 8: Sequences & Series – Formula Sheet</h1>
+  </div>
+
+  <div class="formula-box">
+    <strong>Arithmetic Progression (AP):</strong>
+    \( a, a + d, a + 2d, \dots \)
+    <br>\( n^\text{th} \text{ term: } a_n = a + (n - 1)d \)
+    <br>\( \text{Sum of first } n \text{ terms: } S_n = \frac{n}{2} [2a + (n - 1)d] \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Geometric Progression (GP):</strong>
+    \( a, ar, ar^2, \dots \)
+    <br>\( n^\text{th} \text{ term: } a_n = ar^{n - 1} \)
+    <br>\( \text{Sum of first } n \text{ terms: } S_n = a \frac{1 - r^n}{1 - r} \quad (r \ne 1) \)
+    <br>\( \text{Sum to infinity: } S_\infty = \frac{a}{1 - r} \quad (|r| < 1) \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Special Series:</strong>
+    <ul>
+      <li>\( \sum_{k=1}^{n} k = \frac{n(n + 1)}{2} \)</li>
+      <li>\( \sum_{k=1}^{n} k^2 = \frac{n(n + 1)(2n + 1)}{6} \)</li>
+      <li>\( \sum_{k=1}^{n} k^3 = \left[\frac{n(n + 1)}{2}\right]^2 \)</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Miscellaneous:</strong>
+    <ul>
+      <li>If \( S_n \) is the sum of the first \( n \) terms, then \( a_n = S_n - S_{n - 1} \)</li>
+      <li>Inserting arithmetic/geometric means between two numbers</li>
+    </ul>
+  </div>
+</body>
+</html>

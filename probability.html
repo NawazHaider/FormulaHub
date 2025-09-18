@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 14: Probability</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <img src="https://copilot.microsoft.com/th/id/BCO.c46b5c8d-b20e-4d0d-bb65-8523ec478036.png" alt="Back" />
+  </a>
+
+  <div class="chapter-header" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Dice_probability_distribution.svg/512px-Dice_probability_distribution.svg.png');">
+    <h1>Chapter 14: Probability – Formula Sheet</h1>
+  </div>
+
+  <div class="formula-box">
+    <strong>Probability of an Event:</strong>
+    \( P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}} \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Range of Probability:</strong>
+    \( 0 \leq P(E) \leq 1 \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Complement of an Event:</strong>
+    \( P(E') = 1 - P(E) \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Addition Theorem:</strong>
+    <ul>
+      <li>If \( A \) and \( B \) are two events:  
+        \( P(A \cup B) = P(A) + P(B) - P(A \cap B) \)</li>
+      <li>If \( A \) and \( B \) are mutually exclusive:  
+        \( P(A \cup B) = P(A) + P(B) \)</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Conditional Probability:</strong>
+    \( P(A|B) = \frac{P(A \cap B)}{P(B)} \), provided \( P(B) \ne 0 \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Independent Events:</strong>
+    \( P(A \cap B) = P(A) \cdot P(B) \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Total Probability Theorem:</strong>
+    If \( B_1, B_2, \dots, B_n \) are mutually exclusive and exhaustive events:  
+    \( P(A) = \sum_{i=1}^{n} P(B_i) \cdot P(A|B_i) \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Bayes’ Theorem:</strong>
+    \( P(B_i|A) = \frac{P(B_i) \cdot P(A|B_i)}{\sum_{j=1}^{n} P(B_j) \cdot P(A|B_j)} \)
+  </div>
+</body>
+</html>

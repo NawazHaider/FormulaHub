@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 6: Permutations & Combinations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <img src="https://copilot.microsoft.com/th/id/BCO.c46b5c8d-b20e-4d0d-bb65-8523ec478036.png" alt="Back" />
+  </a>
+
+  <div class="chapter-header">
+    <h1>Chapter 6: Permutations & Combinations – Formula Sheet</h1>
+  </div>
+
+  <div class="formula-box">
+    <strong>Factorial:</strong>
+    \( n! = n \times (n - 1) \times (n - 2) \times \dots \times 1 \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Permutations (when order matters):</strong>
+    \( P(n, r) = nPr = \frac{n!}{(n - r)!} \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Combinations (when order doesn't matter):</strong>
+    \( C(n, r) = nCr = \frac{n!}{r!(n - r)!} \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Properties of Combinations:</strong>
+    <ul>
+      <li>\( nCr = nC(n - r) \)</li>
+      <li>\( nC0 = nCn = 1 \)</li>
+      <li>\( nCr + nC(r - 1) = (n + 1)Cr \)</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Permutations of Repeated Elements:</strong>
+    \( \frac{n!}{p_1! \cdot p_2! \cdot \dots \cdot p_k!} \), where \( p_i \) are identical items
+  </div>
+
+  <div class="formula-box">
+    <strong>Circular Permutations:</strong>
+    <ul>
+      <li>Without repetition: \( (n - 1)! \)</li>
+      <li>With repetition: depends on symmetry and constraints</li>
+    </ul>
+  </div>
+</body>
+</html>

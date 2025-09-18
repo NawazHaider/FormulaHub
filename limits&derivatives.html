@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 12: Limits & Derivatives</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <a href="index.html" class="back-button">
+    <img src="https://copilot.microsoft.com/th/id/BCO.c46b5c8d-b20e-4d0d-bb65-8523ec478036.png" alt="Back" />
+  </a>
+
+  <div class="chapter-header" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Derivative_of_sine_function.svg/512px-Derivative_of_sine_function.svg.png');">
+    <h1>Chapter 12: Limits & Derivatives – Formula Sheet</h1>
+  </div>
+
+  <div class="formula-box">
+    <strong>Limit of a Function:</strong>
+    \( \lim_{x \to a} f(x) = L \) means as \( x \) approaches \( a \), \( f(x) \) approaches \( L \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Standard Limits:</strong>
+    <ul>
+      <li>\( \lim_{x \to 0} \frac{\sin x}{x} = 1 \)</li>
+      <li>\( \lim_{x \to 0} \frac{1 - \cos x}{x^2} = \frac{1}{2} \)</li>
+      <li>\( \lim_{x \to 0} \frac{\tan x}{x} = 1 \)</li>
+      <li>\( \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e \)</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Derivative Definition:</strong>
+    \( f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} \)
+  </div>
+
+  <div class="formula-box">
+    <strong>Derivatives of Basic Functions:</strong>
+    <ul>
+      <li>\( \frac{d}{dx}(x^n) = nx^{n-1} \)</li>
+      <li>\( \frac{d}{dx}(\sin x) = \cos x \)</li>
+      <li>\( \frac{d}{dx}(\cos x) = -\sin x \)</li>
+      <li>\( \frac{d}{dx}(\tan x) = \sec^2 x \)</li>
+      <li>\( \frac{d}{dx}(e^x) = e^x \)</li>
+      <li>\( \frac{d}{dx}(\ln x) = \frac{1}{x} \)</li>
+    </ul>
+  </div>
+
+  <div class="formula-box">
+    <strong>Rules of Differentiation:</strong>
+    <ul>
+      <li>Sum Rule: \( \frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x) \)</li>
+      <li>Product Rule: \( \frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x) \)</li>
+      <li>Quotient Rule: \( \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2} \)</li>
+      <li>Chain Rule: \( \frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x) \)</li>
+    </ul>
+  </div>
+</body>
+</html>
